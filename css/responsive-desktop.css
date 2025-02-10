@@ -39,5 +39,17 @@
     }
     
 
+    main .meal-story{
+        margin-bottom: 2.5rem;
+       }
+       
+
+
+    footer .contact-box{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+    }
+
    
 }
