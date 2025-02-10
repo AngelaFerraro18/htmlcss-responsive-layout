@@ -1,0 +1,22 @@
+@media screen and (min-width: 576px){
+
+main .container{
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+main ul.icon-list li{
+    padding: 0.5em 2em;
+}
+
+
+main #tiramisu-slice{
+    max-width: 50%;
+    padding: 0;
+    margin-right: 0.5rem;
+    float: left; 
+}
+
+}
