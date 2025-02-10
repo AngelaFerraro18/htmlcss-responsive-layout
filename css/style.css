@@ -1,12 +1,12 @@
 /* reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     display: block;
     width: 100%;
 }
@@ -14,9 +14,9 @@ img{
 /* body */
 
 
-body{
-    background-color:#f6f5f3;
-    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+body {
+    background-color: #f6f5f3;
+    font-family: "Montserrat", 'Helvetica Neue', sans-serif;
 }
 
 /* header */
@@ -27,7 +27,7 @@ header {
     background-color: #ffffff;
 }
 
- header #title-recipe{
+header #title-recipe {
     color: #ff9614;
     font-size: 2.5em;
     text-align: center;
@@ -40,86 +40,168 @@ header {
 
 /* main */
 
-main .container{
+main .container {
     max-width: 425px;
     width: 100%;
+    margin: 0 auto;
     padding: 0 25px;
 }
 
-main .name-dessert{
+main .name-dessert {
     margin: 1.2rem 0;
 }
 
-main h3{
+main h3 {
     text-transform: uppercase;
     font-size: 0.5em;
     color: #999999;
     margin-bottom: 1rem;
 }
 
-main h2{
+main h2 {
     font-weight: 800;
     font-size: 1.5em;
     color: #4e3969;
 }
 
-main span{
+main span {
     display: none;
 }
 
-main .box-recipe{
+main .box-recipe {
     background-color: #ffffff;
     box-shadow: 0px 2px 10px #a5a2a2;
     padding: 2rem 1rem;
 }
 
-main ul{
+main ul {
     list-style-type: none;
 }
 
-main .box-recipe span{
+main .box-recipe span {
     display: inline-block;
     font-size: 1.2em;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     font-weight: 700;
 }
- main ul.info-recipe li{
+
+main ul.info-recipe li {
     margin-bottom: 0.5rem;
     font-size: 1em;
- }
+}
 
- main ul.icon-list{
-    margin-top: 1.5rem;
+main ul.icon-list {
+    margin: 1.5rem 0;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
- }
+}
 
- main .fa-facebook{
+main .fa-facebook {
     color: #1a77f3;
- }
+}
 
- main .fa-twitter{
+main .fa-twitter {
     color: #009eff;
- }
+}
 
- main .fa-instagram{
+main .fa-instagram {
     color: #dc3d78;
- }
+}
 
- main .fa-pinterest{
+main .fa-pinterest {
     color: #e62222;
- }
+}
 
- main .fa-youtube{
+main .fa-youtube {
     color: #e62222;
- }
+}
 
- main .icon-list li{
+main .icon-list li {
     padding: 0.5em 0.5em;
     border-radius: 1.5em;
     box-shadow: 0px 1px 5px #a5a2a2;
     display: flex;
     justify-content: center;
     gap: 0.2rem;
- }
+}
+
+
+main #advice-banner {
+    display: none;
+    margin-bottom: 2rem;
+}
+
+main .meal-story h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+main hr {
+    width: 4em;
+    border-color: #f7972e;
+    margin-bottom: 1rem;
+}
+
+
+main #tiramisu-slice {
+    padding: 0 4rem;
+    margin-bottom: 1rem;
+}
+
+main p {
+    line-height: 1.5;
+}
+
+main .meal-story {
+    margin-bottom: 2rem;
+}
+
+/* /main */
+
+
+
+/* footer */
+
+footer {
+    background-color: #7c69a4;
+    color: #ffffff;
+    text-align: center;
+    /* font-size: 0.6em; */
+}
+
+footer h4 {
+    font-size: 1em;
+    margin-bottom: 0.5rem;
+}
+
+footer span{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+footer span,
+ul {
+    font-size: small;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer .contact-box{
+    padding: 1rem 2rem;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+

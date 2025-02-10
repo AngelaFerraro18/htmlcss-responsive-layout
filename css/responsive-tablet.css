@@ -9,7 +9,12 @@
     main .container {
         max-width: 768px;
         width: 100%;
+        margin: 0 auto;
         padding: 0 60px;
+    }
+
+    main h3{
+        font-size: 1em;
     }
 
     main h2 {
@@ -41,6 +46,18 @@
 
     main ul.icon-list li{
         width: calc((100% - 2.5rem) / 5);
+    }
+
+    main #advice-banner{
+        display: inline;
+        margin-bottom: 2.5rem;
+    }
+
+    main #tiramisu-slice{
+        max-width: 40%;
+        padding: 0;
+        margin-right: 0.5rem;
+        float: left;  
     }
 
    
