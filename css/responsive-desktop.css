@@ -1,0 +1,31 @@
+@media screen and (min-width: 992px){
+    main .container{
+        max-width: 992px;
+        width: 100%;
+    }
+
+    main h2{
+        font-size: 2.3em;
+    }
+
+    main ul{
+        display: inline-block;
+    }
+
+    main .d-flex{
+        display: flex;
+    }
+
+    main img{
+        width: 70%;
+        flex-grow: 1;
+    }
+
+    main .box-recipe{
+        width: 30%;
+    }
+
+    main li{
+        width: 100%;
+    }
+}

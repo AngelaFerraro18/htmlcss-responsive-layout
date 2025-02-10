@@ -1,26 +1,32 @@
-@media screen and (min-width: 768px){
-    
-    header #title-recipe{
+@media screen and (min-width: 768px) {
+
+    header #title-recipe {
         text-align: left;
         padding: 0 25px;
-      }
-    
-    main .container{
+    }
+
+
+    main .container {
         max-width: 768px;
         width: 100%;
+        padding: 0 60px;
     }
-    
-     main span{
+
+    main h2 {
+        font-size: 1.8em;
+    }
+
+    main span {
         display: inline;
     }
 
-    main ul{
+    main ul {
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
     }
 
-    main li{
+    main li {
         flex-shrink: 0;
         width: calc((100% - 4rem) / 3);
     }
