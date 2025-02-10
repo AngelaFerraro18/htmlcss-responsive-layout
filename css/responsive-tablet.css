@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px){
+    
+    .container{
+        max-width: 768px;
+        width: 100%;
+    }
+    
+    header #title-recipe{
+    text-align: left;
+    padding: 0 25px;
+  }
+}
