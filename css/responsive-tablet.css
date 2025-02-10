@@ -20,15 +20,30 @@
         display: inline;
     }
 
-    main ul {
+    main ul.info-recipe{
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
     }
 
-    main li {
+    main ul.info-recipe li{
         flex-shrink: 0;
         width: calc((100% - 4rem) / 3);
     }
+
+    main .icons{
+        display: none;
+    }
+
+    main ul.icon-list{
+        gap: 0.5rem;
+    }
+
+    main ul.icon-list li{
+        width: calc((100% - 2.5rem) / 5);
+    }
+
+   
+   
 
 }
